@@ -10,9 +10,6 @@ def get_contestant_name(data, occupation)
   # code here
   data.each do |season, info|
     info.each_with_index |contestant, index|
-      info[0]["occupation"]
-      binding.pry
-    end
   end
   
 end
