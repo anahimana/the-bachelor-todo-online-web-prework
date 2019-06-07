@@ -1,6 +1,7 @@
 def get_first_name_of_season_winner(data, season)
   # code here
   data[season][name].split(" ")[0]
+  binding.pry
   
 end
 
