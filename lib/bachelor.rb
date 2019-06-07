@@ -29,7 +29,7 @@ def count_contestants_by_hometown(data, hometown)
       end
     end
   end
-  binding.pry
+  # binding.pry
   contestant_count
 end
 
