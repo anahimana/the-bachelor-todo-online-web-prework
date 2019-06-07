@@ -12,7 +12,7 @@ def get_contestant_name(data, occupation)
     info.each_with_index do |contestant, index|
       if info[index]["occupation"] == occupation
         # binding.pry
-        contestant["name"]
+        return contestant["name"]
       end
     end
   end
