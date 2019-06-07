@@ -48,5 +48,6 @@ def get_average_age_for_season(data, season)
   # code here
   ages = []
   data[season].each {|x| ages << x["age"].to_i}
+  # Calculate average
   ages.sort
 end
