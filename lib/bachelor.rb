@@ -10,7 +10,7 @@ def get_contestant_name(data, occupation)
   # code here
   data.each do |season, info|
     info.each_with_index do |contestant, index|
-      info[index][occupation]
+      if info[index][occupation] == occupation
       # binding.pry
     end
   end
