@@ -39,7 +39,7 @@ def get_occupation(data, hometown)
     info.each_with_index do |contestant, index|
       return contestant["occupation"] if info[index]["hometown"] == hometown
         # binding.pry
-        contestant_count += 1
+        # contestant_count += 1
       end
     end
   end
