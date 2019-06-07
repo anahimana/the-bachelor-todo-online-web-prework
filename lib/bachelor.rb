@@ -2,7 +2,7 @@ require 'pry'
 def get_first_name_of_season_winner(data, season)
   # code here
   data[season][0]["name"].split(" ")[0]
-  # binding.pry
+  binding.pry
   
 end
 
