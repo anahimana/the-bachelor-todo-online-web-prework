@@ -25,7 +25,7 @@ def count_contestants_by_hometown(data, hometown)
     info.each_with_index do |contestant, index|
       if info[index]["hometown"] == hometown
         # binding.pry
-        content_count += 1
+        contestant_count += 1
       end
     end
   end
