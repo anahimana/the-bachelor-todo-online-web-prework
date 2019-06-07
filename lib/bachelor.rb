@@ -47,5 +47,5 @@ end
 def get_average_age_for_season(data, season)
   # code here
   ages = []
-  data[season][0].each
+  data[season][0]["age"]
 end
