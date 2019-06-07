@@ -12,7 +12,7 @@ def get_contestant_name(data, occupation)
     info.each_with_index |contestant, index|
     info[0]["occupation"]
     binding.pry
-  end
+    end
   end
   
 end
