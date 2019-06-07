@@ -46,6 +46,7 @@ end
 
 def get_average_age_for_season(data, season)
   # code here
+  ages = []
   data[season][i]["age"].to_i
   binding.pry
 end
