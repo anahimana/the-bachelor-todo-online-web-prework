@@ -13,6 +13,7 @@ def get_contestant_name(data, occupation)
     info[0]["occupation"]
     binding.pry
   end
+  end
   
 end
 
