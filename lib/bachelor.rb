@@ -48,6 +48,7 @@ def get_average_age_for_season(data, season)
   # code here
   ages = []
   data.each do |season, info|
+  end
   data[season][0]["age"].to_i
   binding.pry
 end
