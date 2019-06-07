@@ -20,7 +20,7 @@ end
 
 def count_contestants_by_hometown(data, hometown)
   # code here
-  content_count = 0
+  contestant_count = 0
   data.each do |season, info|
     info.each_with_index do |contestant, index|
       if info[index]["hometown"] == hometown
@@ -30,7 +30,7 @@ def count_contestants_by_hometown(data, hometown)
     end
   end
   binding.pry
-  content_count
+  contestant_count
 end
 
 def get_occupation(data, hometown)
