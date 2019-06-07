@@ -8,6 +8,7 @@ end
 
 def get_contestant_name(data, occupation)
   # code here
+  data.each do |season|
   binding.pry
 end
 
